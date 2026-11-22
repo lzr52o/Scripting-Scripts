@@ -24,6 +24,23 @@
 
 </div>
 
+## 🛠️ 技术栈
+
+<div align="center">
+
+![Skill Icons](https://skillicons.dev/icons?i=js,py,git,github,cloudflare,apple,vscode&theme=dark)
+
+</div>
+
+## 😄 每日一笑
+
+<div align="center">
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical)
+
+</div>
+
+
 ## 用法
 
 复制想要的那套图标的「订阅链接」，在 Quantumult X / Surge 的图标订阅中添加即可。
@@ -75,3 +92,5 @@
 - 共 19 套图标，文件都在本仓库根目录。
 - 图标文件来自各作者原仓库，版权归原作者所有；仅作订阅收集。
 - `zishi-cs.json` 原文件末尾多一个逗号（JSON 不规范），已顺手修掉，图标内容不变。
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=%E5%9B%BE%E6%A0%87%E5%BA%93&fontSize=24&fontColor=ffffff)
