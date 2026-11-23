@@ -55,9 +55,30 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 
 ## 脚本列表
 
+### 壁纸
+
 | 脚本 | 说明 | 版本 |
 |---|---|---|
 | [壁纸小组件](scripts/WallpaperWidget) | ACG 二次元壁纸小组件：随机展示高质量 ACG 图片，支持自定义刷新间隔、可指定图片 ID、iOS 小组件显示 | v1.2.1 |
+
+### 监控工具
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [qBitHelper](scripts/qBitHelper) | qBittorrent / Transmission 远程监控：上传下载速度、历史数据图表、种子数量，三种小组件尺寸 | v1.0.6 |
+| [智慧交通](scripts/智慧交通) | 城市交通状况监控：实时拥堵指数、拥堵道路排行、早晚高峰预测，支持全国多城市切换 | v1.0.0 |
+
+### 生活打卡
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [Live In Earnest](scripts/Live%20In%20Earnest) | 每日打卡，证明你还活着 | v1.0.0 |
+
+### 插件商店
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [Scripting Store](scripts/Scripting%20Store) | Scripting 插件商店客户端：浏览、搜索、安装 Scripting 插件 | v2.0.2 |
 
 ## 壁纸小组件
 
@@ -80,6 +101,54 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 
 原作者：[MolTau9527](https://github.com/MolTau9527)（[Scripting-Tools](https://github.com/MolTau9527/Scripting-Tools)，MIT 协议）
 
+## qBitHelper
+
+远程监控你的 qBittorrent 或 Transmission 下载器状态，随时掌握下载进度。
+
+**主要功能：**
+
+- 显示上传/下载速度
+- 历史数据图表展示
+- 种子数量统计
+- 同时支持 qBittorrent 和 Transmission
+- 支持小组件三种尺寸（小/中/大）
+- App Intent 快速切换客户端
+- 每个客户端独立保存配置
+
+## 智慧交通
+
+实时查看城市交通状况的桌面小组件，让你出行前了解路况。
+
+**主要功能：**
+
+- 实时显示城市交通拥堵指数
+- 拥堵等级可视化（畅通/缓行/拥堵/严重拥堵）
+- 拥堵道路排行榜展示
+- 早晚高峰拥堵预测
+- 支持全国多城市切换
+
+**数据来源：** 百度交通指数
+
+## Live In Earnest
+
+每日打卡，证明你还活着。
+
+## Scripting Store
+
+一个便捷的插件商店客户端，可在 App 内直接浏览、搜索和安装 Scripting 插件。
+
+**主要功能：**
+
+- 浏览插件列表
+- 搜索插件（按名称/描述）
+- 查看插件详情
+- 一键安装插件
+- 支持按时间/热度排序
+- 发布自己的插件
+- 个人中心管理
+
+> **声明：** 本脚本仅做 App 适配，免访问网站。感谢原作者 [gallery.scripting.fun](https://gallery.scripting.fun) 提供网页服务。所有组件均收集自互联网，版权归原作者所有。
+
 ## 安装方法
 
 1. 在 iOS 设备上安装 [Scripting App](https://apps.apple.com/app/id6740200543)
@@ -91,24 +160,18 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 
 ```
 scripts/
-└── WallpaperWidget/          # ACG 壁纸小组件
-    ├── script.json           # 脚本配置
-    ├── index.tsx             # 主入口
-    ├── widget.tsx            # 小组件实现
-    └── utils/                # 工具模块
-        ├── api.ts            # API 接口
-        ├── imageCache.ts     # 图片缓存
-        ├── storage.ts        # 存储管理
-        ├── theme.ts          # 主题色板
-        ├── types.ts          # 类型定义
-        ├── utils.ts          # 工具函数
-        ├── SettingsPage.tsx  # 设置页面
-        └── PreviewHome.tsx   # 预览页面
+├── WallpaperWidget/          # ACG 壁纸小组件
+├── qBitHelper/               # qBittorrent/Transmission 远程监控
+├── 智慧交通/                  # 城市交通状况监控
+├── Live In Earnest/          # 每日打卡
+└── Scripting Store/          # 插件商店
 ```
+
+每个脚本文件夹里都是完整源码（script.json、index.tsx、widget.tsx、utils 等），下载后直接导入 Scripting App 就能用。
 
 ## 说明
 
-- 壁纸小组件基于 MolTau9527 的 v1.0.3 修改，版权归原作者所有；本库仅作修改版收集。
+- 除壁纸小组件是基于 MolTau9527 的 v1.0.3 修改的 v1.2.1 外，其余脚本均为原作者原版收录，版权归原作者所有；本库仅作收集。
 - 图片来源为 ACG 图库（loliapi.com），版权归原作者所有。
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
