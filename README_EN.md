@@ -55,6 +55,32 @@ A collection of scripts for the Scripting App. Download a script folder you like
 
 
 
+## 📖 Usage Guide
+
+This is a collection of scripts for the Scripting App: 37 scripts in 8 categories — Wallpaper, Monitoring Tools, Widgets, Daily Check-ins, Productivity, Plugin Store, Tools, and AI. Most of them are home screen widgets that show live info right on your iOS desktop; some are in-app tools (such as GitHub management and icon organizing).
+
+**What you need:**
+
+- An iPhone or iPad with the [Scripting App](https://apps.apple.com/app/id6479691128) installed
+- Some scripts need your own account or service to work. For example, qBitHelper connects to your own downloader, SGCC needs your State Grid account, and CF Usage needs your Cloudflare account details — just fill them in when the script asks
+
+**How to use it, step by step:**
+
+1. Pick a script you like from the list above and open its folder
+2. Download the whole folder (download the files one by one, or clone / download the whole repo as a ZIP and take out the folder you need)
+3. Open the Scripting App and import the downloaded folder
+4. To put it on your home screen: long-press an empty spot on the iOS home screen → tap `+` in the top-left corner → find Scripting → pick a widget size → choose the script you just imported
+5. Some scripts ask for settings the first time you open them (such as a server address, a city, or an account). Open the script in the Scripting App and fill them in as prompted
+
+> Only AI Usage comes as a `.scripting` package (it contains a lot of images, 19 MB). Download it and import it directly — no need to unzip it.
+
+**FAQ:**
+
+- **The widget doesn't show up after importing?** Open the script in the Scripting App first and check it runs. If it doesn't, the settings are usually missing, or a script that needs the internet couldn't reach the network.
+- **Images keep failing to load?** The wallpaper widget loads pictures from online galleries. On a slow connection it takes longer — wait a bit or tap refresh and try again.
+- **Only want one script, not the whole repo?** Open the folder you need under `scripts/` and download just that one.
+- **Who wrote these scripts?** Except for the wallpaper widget, which is based on the original author's version with modifications, all other scripts are the original authors' versions as-is. Copyright belongs to the original authors; this repo only collects them.
+
 ## Script List
 
 ### Wallpaper

@@ -55,6 +55,32 @@ Scripting App için betik koleksiyonu. Beğendiğiniz betik klasörünü indirip
 
 
 
+## 📖 Kullanım Kılavuzu
+
+Bu depo, Scripting App için hazırlanmış bir betik koleksiyonudur: 8 kategoride toplam 37 betik — Duvar Kağıdı, İzleme Araçları, Widget'lar, Günlük Kayıt, Verimlilik, Eklenti Mağazası, Araçlar ve Yapay Zeka. Çoğu, bilgileri doğrudan iOS ana ekranınızda gösteren masaüstü widget'ıdır; GitHub yönetimi ve simge düzenleme gibi, uygulama içinde açılarak kullanılan araçlar da vardır.
+
+**Gerekenler:**
+
+- [Scripting App](https://apps.apple.com/app/id6479691128) yüklü bir iPhone veya iPad
+- Bazı betikler kendi hesabınızı veya hizmetinizi gerektirir. Örneğin qBitHelper kendi indiricine bağlanır, SGCC State Grid hesabı ister, CF Usage ise Cloudflare hesap bilgilerinizi ister — betik sorduğunda doldurmanız yeterli
+
+**Nasıl kullanılır (adım adım):**
+
+1. Yukarıdaki listeden beğendiğiniz bir betiği seçip klasörünü açın
+2. Klasörün tamamını indirin (dosyaları tek tek indirebilir veya deponun tamamını Clone / ZIP olarak indirip ihtiyacınız olan klasörü çıkarabilirsiniz)
+3. Scripting App'i açıp indirdiğiniz klasörü içe aktarın
+4. Ana ekrana koymak için: iOS ana ekranında boş bir alana uzun basın → sol üstteki `+` simgesine dokunun → Scripting'i bulun → bir widget boyutu seçin → az önce içe aktardığınız betiği seçin
+5. Bazı betikler ilk açılışta ayar ister (örneğin sunucu adresi, şehir veya hesap). Betiği Scripting App'te açıp yönergeleri izleyerek doldurun
+
+> `.scripting` paketi olarak gelen tek betik AI Usage'tır (çok sayıda görsel içerdiği için 19 MB). İndirip doğrudan içe aktarın, açmanıza gerek yok.
+
+**Sık sorulan sorular:**
+
+- **İçe aktardım ama widget görünmüyor?** Önce betiği Scripting App'te açıp normal çalışıp çalışmadığını kontrol edin. Çalışmıyorsa genelde ayarlar doldurulmamıştır ya da internet gerektiren betik ağa ulaşamamıştır.
+- **Görseller bir türlü yüklenmiyor?** Duvar kağıdı widget'ı görselleri çevrimiçi galerilerden alır. Bağlantı yavaşsa yüklenmesi uzun sürer; biraz bekleyin veya yenileye dokunup tekrar deneyin.
+- **Deponun tamamını değil, tek bir betik istiyorum?** `scripts/` altındaki ilgili klasörü açıp yalnızca o klasörü indirin.
+- **Bu betikleri kim yazdı?** Duvar kağıdı widget'ı orijinal yazarın sürümünden değiştirilerek hazırlanmıştır; diğerleri yazarların orijinal sürümleridir. Telif hakkı orijinal yazarlara aittir; bu depo yalnızca derleme yapar.
+
 ## Betik Listesi
 
 ### Duvar Kağıdı
