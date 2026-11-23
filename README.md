@@ -1,3 +1,5 @@
+[English](README_EN.md) · 简体中文 · [日本語](README_JA.md) · [한국어](README_KO.md) · [Türkçe](README_TR.md)
+
 ![Scripting 脚本](header.png)
 
 # Scripting 脚本
@@ -259,3 +261,4 @@ scripts/
 - 图片来源为 ACG 图库（loliapi.com），版权归原作者所有。
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
+
