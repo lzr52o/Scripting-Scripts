@@ -71,12 +71,29 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 | [流媒體解鎖檢測](scripts/流媒體解鎖檢測) | 流媒体解锁检测小组件：测节点能不能看 Netflix、Disney+、YouTube、ChatGPT 等 | v1.1.0 |
 | [Loon Panel](scripts/Loon%20Panel) | Loon 面板小组件：机场流量、节点测速、流媒体解锁，桌面直接切节点换模式 | v1.0.9 |
 
+### 小组件
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [Calendar](scripts/Calendar) | 日历小组件：公历农历、节假日，三种尺寸 | v1.3.0 |
+| [Weibo](scripts/Weibo) | 微博热搜小组件 | v1.1.0 |
+| [SGCC](scripts/SGCC) | 网上国网小组件：电费余额、电量、阶梯进度与用电柱状图 | v1.0.1 |
+| [App Store Region](scripts/App%20Store%20Region) | App Store 地区管理小组件，三种尺寸 | v1.0.0 |
+| [万年历](scripts/万年历) | 万年历小组件：公历农历、节假日，三种尺寸 | v1.0.0 |
+| [Colorful Clouds](scripts/Colorful%20Clouds) | 彩云天气小组件与天气通知 | — |
+
 ### 生活打卡
 
 | 脚本 | 说明 | 版本 |
 |---|---|---|
 | [Live In Earnest](scripts/Live%20In%20Earnest) | 每日打卡，证明你还活着 | v1.0.0 |
 | [Itemory](scripts/Itemory) | 个人物品档案：记购入、维修、转手收支，算持有天数与日均成本，支持订单截图识图录入 | v1.0.0 |
+
+### 效率
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [RSS](scripts/RSS) | RSS 阅读器，支持 AI 摘要 | v1.0.0 |
 
 ### 插件商店
 
@@ -96,6 +113,16 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 | [IconShelf](scripts/IconShelf) | 图标集订阅管理：代理 App、Emby 等场景的图标集，分组、搜索、更新、备份恢复 | v0.4.0 |
 | [Launch](scripts/Launch) | 多小组件启动器：文件夹自适应，一个入口管多个小组件配置 | v1.15.2 |
 | [覆写模块聚合](scripts/覆写模块聚合) | Surge / Loon / Egern / Stash / Shadowrocket 的模块、插件与覆写聚合目录，可搜索、收藏、一键导入 | v1.1.0 |
+| [CF Usage](scripts/CF%20Usage) | 查看 Cloudflare 账号与单个 Worker 的用量，接近额度时提醒 | v1.0.0 |
+| [GitHub Secrets](scripts/GitHub%20Secrets) | 管理 GitHub 仓库 Secrets，支持加密存储与多仓库共享 | v1.0.0 |
+| [Storefront](scripts/Storefront) | 管理多区 Apple 账号的余额、订阅与 TestFlight 名额 | v1.5.0 |
+| [Remove Background](scripts/Remove%20Background) | 图片一键去背景（抠图） | v0.1.0 |
+| [Cloudflare Panel](scripts/Cloudflare%20Panel) | Cloudflare 面板：账号用量、Worker 状态，带桌面小组件 | — |
+| [App多区价格查询](scripts/App多区价格查询) | 查 App 在各区 App Store 的价格 | v1.0.0 |
+| [Iconset Helper](scripts/Iconset%20Helper) | 图标集助手：整理与上传图标集 | v1.0.0 |
+| [Gist](scripts/Gist) | GitHub Gist 管理：新建、编辑、查看 | v1.0.0 |
+| [Video to Live Photo](scripts/Video%20to%20Live%20Photo) | 选视频、选封面帧和时长，保存为 Live Photo | v1.0.0 |
+| [Border Beam](scripts/Border%20Beam) | 边框流光动效演示（Metal 着色器），可作 UI 组件参考 | v1.0.0 |
 
 ### AI
 
@@ -103,6 +130,7 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 |---|---|---|
 | [AI Usage](scripts/AI%20Usage) | 多平台 AI 用量聚合看板：Codex、Grok、Claude、Cursor、Kimi 等 11 个平台多账号用量、桌面小组件 | v1.9.0 |
 | [寒霜注入工具 2](scripts/寒霜注入工具%202) | 本地 AI 代理网关：iOS 原生 TCP 真流式推流、后台保活、多引擎容灾 | v1.2.4 |
+| [Codex Panel](scripts/Codex%20Panel) | Codex 用量面板小组件 | — |
 
 ## 壁纸小组件
 
@@ -190,8 +218,15 @@ scripts/
 ├── Surge Metrics/            # Surge 运行指标小组件
 ├── 流媒體解鎖檢測/            # 流媒体解锁检测
 ├── Loon Panel/               # Loon 面板小组件
+├── Calendar/                 # 日历小组件
+├── Weibo/                    # 微博热搜小组件
+├── SGCC/                     # 网上国网小组件
+├── App Store Region/         # App Store 地区管理
+├── 万年历/                    # 万年历小组件
+├── Colorful Clouds/          # 彩云天气小组件
 ├── Live In Earnest/          # 每日打卡
 ├── Itemory/                  # 个人物品档案
+├── RSS/                      # RSS 阅读器
 ├── Scripting Store/          # 插件商店
 ├── Github Toolkit/           # GitHub 全能工具
 ├── Github Repo/              # GitHub 仓库管理器
@@ -201,8 +236,19 @@ scripts/
 ├── IconShelf/                # 图标集订阅管理
 ├── Launch/                   # 多小组件启动器
 ├── 覆写模块聚合/              # 代理模块与覆写聚合目录
+├── CF Usage/                 # Cloudflare 用量查看
+├── GitHub Secrets/           # GitHub Secrets 管理
+├── Storefront/               # 多区 Apple 账号管理
+├── Remove Background/        # 图片去背景
+├── Cloudflare Panel/         # Cloudflare 面板
+├── App多区价格查询/           # App 各区价格查询
+├── Iconset Helper/           # 图标集助手
+├── Gist/                     # GitHub Gist 管理
+├── Video to Live Photo/      # 视频转 Live Photo
+├── Border Beam/              # 边框流光动效演示
 ├── AI Usage/                 # 多平台 AI 用量看板（.scripting 包）
-└── 寒霜注入工具 2/            # 本地 AI 代理网关
+├── 寒霜注入工具 2/            # 本地 AI 代理网关
+└── Codex Panel/              # Codex 用量面板
 ```
 
 每个脚本文件夹里都是完整源码（script.json、index.tsx、widget.tsx、utils 等），下载后直接导入 Scripting App 就能用。AI Usage 因含大量图片资源（19 MB），以原版 .scripting 包形式收录，下载后直接导入即可。
