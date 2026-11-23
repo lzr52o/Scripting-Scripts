@@ -175,7 +175,7 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 
 ## 安装方法
 
-1. 在 iOS 设备上安装 [Scripting App](https://apps.apple.com/app/id6740200543)
+1. 在 iOS 设备上安装 [Scripting App](https://apps.apple.com/app/id6479691128)
 2. 下载对应脚本文件夹（例如 `scripts/WallpaperWidget`）
 3. 导入到 Scripting App 中
 4. 根据需要配置脚本参数
