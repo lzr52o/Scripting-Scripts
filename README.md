@@ -67,18 +67,42 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 |---|---|---|
 | [qBitHelper](scripts/qBitHelper) | qBittorrent / Transmission 远程监控：上传下载速度、历史数据图表、种子数量，三种小组件尺寸 | v1.0.6 |
 | [智慧交通](scripts/智慧交通) | 城市交通状况监控：实时拥堵指数、拥堵道路排行、早晚高峰预测，支持全国多城市切换 | v1.0.0 |
+| [Surge Metrics](scripts/Surge%20Metrics) | Surge iOS 运行指标小组件：累计流量、内存、DNS 缓存、接口流量排行 | v1.1.1 |
+| [流媒體解鎖檢測](scripts/流媒體解鎖檢測) | 流媒体解锁检测小组件：测节点能不能看 Netflix、Disney+、YouTube、ChatGPT 等 | v1.1.0 |
+| [Loon Panel](scripts/Loon%20Panel) | Loon 面板小组件：机场流量、节点测速、流媒体解锁，桌面直接切节点换模式 | v1.0.9 |
 
 ### 生活打卡
 
 | 脚本 | 说明 | 版本 |
 |---|---|---|
 | [Live In Earnest](scripts/Live%20In%20Earnest) | 每日打卡，证明你还活着 | v1.0.0 |
+| [Itemory](scripts/Itemory) | 个人物品档案：记购入、维修、转手收支，算持有天数与日均成本，支持订单截图识图录入 | v1.0.0 |
 
 ### 插件商店
 
 | 脚本 | 说明 | 版本 |
 |---|---|---|
 | [Scripting Store](scripts/Scripting%20Store) | Scripting 插件商店客户端：浏览、搜索、安装 Scripting 插件 | v2.0.2 |
+
+### 工具
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [GitHub Toolkit](scripts/Github%20Toolkit) | GitHub 全能工具：仓库/Gist/Action 浏览编辑、PR 差异、收藏、Fork 同步 | v2.0 |
+| [Github Repo](scripts/Github%20Repo) | GitHub 仓库管理器：仓库浏览、收藏、Fork 同步、建 PR | v3.0 |
+| [GitHub Stars](scripts/GitHub%20Stars) | GitHub Stars 与仓库管理：按 Star 时间浏览、自定义列表、Fork 上游检查、贡献热力图 | v1.1.1 |
+| [GitHub 規則添加](scripts/GitHub%20規則添加) | 给 GitHub 仓库快速加规则文件的小工具 | v2.0.0 |
+| [Icon Library](scripts/Icon%20Library) | GitHub 公开图标库管理：多图标库、图标导入整理、订阅与导出 PNG | v1.1.2 |
+| [IconShelf](scripts/IconShelf) | 图标集订阅管理：代理 App、Emby 等场景的图标集，分组、搜索、更新、备份恢复 | v0.4.0 |
+| [Launch](scripts/Launch) | 多小组件启动器：文件夹自适应，一个入口管多个小组件配置 | v1.15.2 |
+| [覆写模块聚合](scripts/覆写模块聚合) | Surge / Loon / Egern / Stash / Shadowrocket 的模块、插件与覆写聚合目录，可搜索、收藏、一键导入 | v1.1.0 |
+
+### AI
+
+| 脚本 | 说明 | 版本 |
+|---|---|---|
+| [AI Usage](scripts/AI%20Usage) | 多平台 AI 用量聚合看板：Codex、Grok、Claude、Cursor、Kimi 等 11 个平台多账号用量、桌面小组件 | v1.9.0 |
+| [寒霜注入工具 2](scripts/寒霜注入工具%202) | 本地 AI 代理网关：iOS 原生 TCP 真流式推流、后台保活、多引擎容灾 | v1.2.4 |
 
 ## 壁纸小组件
 
@@ -163,15 +187,29 @@ scripts/
 ├── WallpaperWidget/          # ACG 壁纸小组件
 ├── qBitHelper/               # qBittorrent/Transmission 远程监控
 ├── 智慧交通/                  # 城市交通状况监控
+├── Surge Metrics/            # Surge 运行指标小组件
+├── 流媒體解鎖檢測/            # 流媒体解锁检测
+├── Loon Panel/               # Loon 面板小组件
 ├── Live In Earnest/          # 每日打卡
-└── Scripting Store/          # 插件商店
+├── Itemory/                  # 个人物品档案
+├── Scripting Store/          # 插件商店
+├── Github Toolkit/           # GitHub 全能工具
+├── Github Repo/              # GitHub 仓库管理器
+├── GitHub Stars/             # GitHub Stars 与仓库管理
+├── GitHub 規則添加/           # GitHub 仓库规则添加
+├── Icon Library/             # GitHub 图标库管理
+├── IconShelf/                # 图标集订阅管理
+├── Launch/                   # 多小组件启动器
+├── 覆写模块聚合/              # 代理模块与覆写聚合目录
+├── AI Usage/                 # 多平台 AI 用量看板（.scripting 包）
+└── 寒霜注入工具 2/            # 本地 AI 代理网关
 ```
 
-每个脚本文件夹里都是完整源码（script.json、index.tsx、widget.tsx、utils 等），下载后直接导入 Scripting App 就能用。
+每个脚本文件夹里都是完整源码（script.json、index.tsx、widget.tsx、utils 等），下载后直接导入 Scripting App 就能用。AI Usage 因含大量图片资源（19 MB），以原版 .scripting 包形式收录，下载后直接导入即可。
 
 ## 说明
 
-- 除壁纸小组件是基于 MolTau9527 的 v1.0.3 修改的 v1.2.1 外，其余脚本均为原作者原版收录，版权归原作者所有；本库仅作收集。
+- 除壁纸小组件是基于 MolTau9527 的 v1.0.3 修改的 v1.2.1 外，其余脚本均为各原作者原版收录，版权归原作者所有；本库仅作收集。
 - 图片来源为 ACG 图库（loliapi.com），版权归原作者所有。
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
