@@ -87,7 +87,7 @@ Bu depo, Scripting App için hazırlanmış bir betik koleksiyonudur: 8 kategori
 
 | Betik | Açıklama | Sürüm |
 |---|---|---|
-| [壁纸小组件](scripts/WallpaperWidget) | ACG anime duvar kağıdı widget'ı: yüksek kaliteli ACG görsellerini rastgele gösterir, özel yenileme aralığı, belirli görsel kimliği seçimi ve iOS widget desteği | v1.2.1 |
+| [壁纸小组件](scripts/WallpaperWidget) | ACG anime duvar kağıdı widget'ı: yüksek kaliteli ACG görsellerini rastgele gösterir, özel yenileme aralığı, belirli görsel kimliği seçimi ve iOS widget desteği | v1.2.6 |
 
 ### İzleme Araçları
 
@@ -283,7 +283,8 @@ Her betik klasörü tam kaynak kodu içerir (script.json, index.tsx, widget.tsx,
 
 ## Açıklama
 
-- Duvar kağıdı widget'ı (MolTau9527'nin v1.0.3 sürümünü temel alan değiştirilmiş v1.2.1 sürümü) dışında diğer tüm betikler ilgili orijinal yazarların orijinal sürümleriyle eklenmiştir; telif hakları orijinal yazarlara aittir, bu depo yalnızca bir koleksiyondur.
+- Duvar kağıdı widget'ı (MolTau9527'nin v1.0.3 sürümünü temel alan değiştirilmiş v1.2.6 sürümü) dışında diğer tüm betikler ilgili orijinal yazarların orijinal sürümleriyle eklenmiştir; telif hakları orijinal yazarlara aittir, bu depo yalnızca bir koleksiyondur.
 - Görsel kaynakları ACG görsel galerisidir (loliapi.com); telif hakları orijinal yazarlara aittir.
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
+

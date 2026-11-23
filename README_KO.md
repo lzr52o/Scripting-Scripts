@@ -87,7 +87,7 @@ Scripting App용 스크립트 모음집입니다. 마음에 드는 스크립트 
 
 | 스크립트 | 설명 | 버전 |
 |---|---|---|
-| [壁纸小组件](scripts/WallpaperWidget) | ACG 애니메이션 배경화면 위젯: 고화질 ACG 이미지를 무작위로 표시, 새로고침 간격 설정, 이미지 ID 지정, iOS 위젯 표시 지원 | v1.2.1 |
+| [壁纸小组件](scripts/WallpaperWidget) | ACG 애니메이션 배경화면 위젯: 고화질 ACG 이미지를 무작위로 표시, 새로고침 간격 설정, 이미지 ID 지정, iOS 위젯 표시 지원 | v1.2.6 |
 
 ### 모니터링 도구
 
@@ -283,7 +283,8 @@ scripts/
 
 ## 참고
 
-- 배경화면 위젯(MolTau9527의 v1.0.3을 바탕으로 수정한 v1.2.1)을 제외한 나머지 스크립트는 모두 각 원작자의 원본 그대로 수록했으며, 저작권은 원작자에게 있고 본 저장소는 수집만을 목적으로 합니다.
+- 배경화면 위젯(MolTau9527의 v1.0.3을 바탕으로 수정한 v1.2.6)을 제외한 나머지 스크립트는 모두 각 원작자의 원본 그대로 수록했으며, 저작권은 원작자에게 있고 본 저장소는 수집만을 목적으로 합니다.
 - 이미지 출처는 ACG 이미지 갤러리(loliapi.com)이며, 저작권은 원작자에게 있습니다.
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
+

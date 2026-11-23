@@ -87,7 +87,7 @@ Scripting App 用スクリプト集。気に入ったスクリプトフォルダ
 
 | スクリプト | 説明 | バージョン |
 |---|---|---|
-| [壁纸小组件](scripts/WallpaperWidget) | ACG 二次元壁紙ウィジェット：高画質な ACG 画像をランダムに表示、更新間隔のカスタマイズ、画像 ID の指定、iOS ウィジェット表示に対応 | v1.2.1 |
+| [壁纸小组件](scripts/WallpaperWidget) | ACG 二次元壁紙ウィジェット：高画質な ACG 画像をランダムに表示、更新間隔のカスタマイズ、画像 ID の指定、iOS ウィジェット表示に対応 | v1.2.6 |
 
 ### 監視ツール
 
@@ -283,7 +283,8 @@ scripts/
 
 ## 説明
 
-- 壁紙ウィジェット（MolTau9527 の v1.0.3 をベースに改変した v1.2.1）以外は、すべて各原作者のオリジナル版をそのまま収録しています。著作権は原作者に帰属し、本リポジトリは収集のみを目的としています。
+- 壁紙ウィジェット（MolTau9527 の v1.0.3 をベースに改変した v1.2.6）以外は、すべて各原作者のオリジナル版をそのまま収録しています。著作権は原作者に帰属し、本リポジトリは収集のみを目的としています。
 - 画像の提供元は ACG 画像ギャラリー（loliapi.com）で、著作権は原作者に帰属します。
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
+

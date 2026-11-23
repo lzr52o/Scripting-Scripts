@@ -94,6 +94,7 @@ export function PreviewHome({ onClose, onSettings }: PreviewHomeProps) {
       <ScrollView
         navigationTitle="壁纸预览"
         navigationBarTitleDisplayMode="inline"
+        toolbarBackgroundVisibility={{ visibility: "hidden", bars: ["navigationBar"] }}
         background={{ light: "#F2F2F7", dark: "#000000" }}
         toolbar={{
           topBarLeading: (

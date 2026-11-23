@@ -548,7 +548,7 @@ export function SettingsPage({ onBack }: SettingsPageProps) {
       </Text>
       <Spacer />
       <Text font={14} foregroundStyle={t.textSecondary}>
-        v1.2.1
+        v1.2.6
       </Text>
     </HStack>
   );
@@ -574,18 +574,25 @@ export function SettingsPage({ onBack }: SettingsPageProps) {
         navigationTitle="壁纸组件"
         navigationBarTitleDisplayMode="inline"
         toolbarTitleDisplayMode="inline"
-        background={{
-          light: gradient("linear", {
-            colors: flow.light,
-            startPoint: "topLeading",
-            endPoint: "bottomTrailing",
-          }),
-          dark: gradient("linear", {
-            colors: flow.dark,
-            startPoint: "topLeading",
-            endPoint: "bottomTrailing",
-          }),
-        }}
+        toolbarBackgroundVisibility={{ visibility: "hidden", bars: ["navigationBar"] }}
+        background={
+          <ZStack
+            ignoresSafeArea
+            frame={{ maxWidth: Infinity, maxHeight: Infinity }}
+            background={{
+              light: gradient("linear", {
+                colors: flow.light,
+                startPoint: "topLeading",
+                endPoint: "bottomTrailing",
+              }),
+              dark: gradient("linear", {
+                colors: flow.dark,
+                startPoint: "topLeading",
+                endPoint: "bottomTrailing",
+              }),
+            }}
+          />
+        }
         toolbar={{
           topBarLeading: (
             <HStack

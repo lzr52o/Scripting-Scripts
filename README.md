@@ -87,7 +87,7 @@ Scripting App 脚本合集。把喜欢的脚本文件夹下载下来，导入 Sc
 
 | 脚本 | 说明 | 版本 |
 |---|---|---|
-| [壁纸小组件](scripts/WallpaperWidget) | ACG 二次元壁纸小组件：随机展示高质量 ACG 图片，支持自定义刷新间隔、可指定图片 ID、iOS 小组件显示 | v1.2.1 |
+| [壁纸小组件](scripts/WallpaperWidget) | ACG 二次元壁纸小组件：随机展示高质量 ACG 图片，支持自定义刷新间隔、可指定图片 ID、iOS 小组件显示 | v1.2.6 |
 
 ### 监控工具
 
@@ -283,8 +283,9 @@ scripts/
 
 ## 说明
 
-- 除壁纸小组件是基于 MolTau9527 的 v1.0.3 修改的 v1.2.1 外，其余脚本均为各原作者原版收录，版权归原作者所有；本库仅作收集。
+- 除壁纸小组件是基于 MolTau9527 的 v1.0.3 修改的 v1.2.6 外，其余脚本均为各原作者原版收录，版权归原作者所有；本库仅作收集。
 - 图片来源为 ACG 图库（loliapi.com），版权归原作者所有。
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
+
 

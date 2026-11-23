@@ -87,7 +87,7 @@ This is a collection of scripts for the Scripting App: 37 scripts in 8 categorie
 
 | Script | Description | Version |
 |---|---|---|
-| [壁纸小组件](scripts/WallpaperWidget) | ACG anime wallpaper widget: shows high-quality ACG images at random, with a custom refresh interval, a specific image ID option, and iOS widget support | v1.2.1 |
+| [壁纸小组件](scripts/WallpaperWidget) | ACG anime wallpaper widget: shows high-quality ACG images at random, with a custom refresh interval, a specific image ID option, and iOS widget support | v1.2.6 |
 
 ### Monitoring Tools
 
@@ -283,7 +283,8 @@ Each script folder contains the complete source code (script.json, index.tsx, wi
 
 ## Notes
 
-- Except for the wallpaper widget, which is v1.2.1 modified from MolTau9527's v1.0.3, all other scripts are included as-is from their original authors; copyright belongs to the original authors, and this repo is only a collection.
+- Except for the wallpaper widget, which is v1.2.6 modified from MolTau9527's v1.0.3, all other scripts are included as-is from their original authors; copyright belongs to the original authors, and this repo is only a collection.
 - Image sources are ACG galleries (loliapi.com); copyright belongs to the original authors.
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Scripting%20%E8%84%9A%E6%9C%AC&fontSize=24&fontColor=ffffff)
+
